@@ -1,0 +1,29 @@
+@import "variables";
+@import "breakpoints";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// Put your SCSS below, remember to compile it into CSS(your can use a vs code plugin called "live sass")
+$modal-content-body-left-color: rgb(243 246 249);
+
+$modal-content-body-right-color: rgb(241 250 255);
+
+$modal-content-header-color: rgb(225 233 255);
+
+$modal-content-footer-color: rgb(225 233 255);
+
+// Bagdes color component
+$modal-content-chat-bagde-color1: rgb(201 247 245);
+$modal-content-chat-bagde-text-color1: rgb(27 197 189);
+
+$modal-content-chat-bagde-color2: rgb(233 222 255);
+$modal-content-chat-bagde-text-color2: rgb(137 80 252);
+
+$modal-content-chat-bagde-color3: rgb(255 234 222);
+$modal-content-chat-bagde-text-color3: rgb(164 109 77);
+//Note: don't write scss for something that can be accomplished using bootstrap
